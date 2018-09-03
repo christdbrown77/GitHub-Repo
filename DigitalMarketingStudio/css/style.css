@@ -70,7 +70,6 @@ a:hover {
     background: url(../images/banner.jpg) no-repeat;
     width: 100%;
     display: block;
-    height: 730px;
     background-size: cover;
 }
 .banner h1 {
@@ -200,7 +199,7 @@ a.active {
     width: 85%;
     display: inline-block;
     border-bottom: 1px solid rgb(2, 57, 76);
-    background: #032F3E;
+    background: black;
     transition: all linear 0.15s;
     font-size: 17px;
     color: #fff;
@@ -280,7 +279,7 @@ a.accordion-section-title span {
 }
 .w3l h4 {
     text-transform: uppercase;
-    color: #032F3E;
+    color: black;
     font-size: 40px;
     padding: 50px 0 28px;
 }
@@ -314,7 +313,7 @@ a.accordion-section-title span {
 .agileits h3,
 .agile h3 {
     text-align: center;
-    color: #032F3E;
+    color: black;
     font-size: 3em;
     margin: 0 0 1.5em;
 }
@@ -381,7 +380,7 @@ p.vel {
 
 .hovicon.effect-2 {
     color: #fff;
-    box-shadow: 0 0 0 3px #032F3E;
+    box-shadow: 0 0 0 3px black;
     -Webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     transition: color 0.3s;
@@ -391,7 +390,7 @@ p.vel {
     left: -2px;
     padding: 2px;
     z-index: -1;
-    background: #032F3E;
+    background: black;
     -Webkit-transition: -Webkit-transform 0.2s, opacity 0.2s;
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
@@ -417,7 +416,7 @@ p.vel {
 
 .services-grid-left2 h4 {
     font-size: 2em;
-    color: #032F3E;
+    color: black;
     margin: 0;
     text-align: left;
 }
@@ -507,7 +506,7 @@ a.mail:hover {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    background-color: #032F3E;
+    background-color: black;
     top: 0;
     right: 0;
     border: none;
@@ -607,7 +606,7 @@ a.mail:hover {
 
 .agileits h4 {
     text-align: center;
-    color: #032F3E;
+    color: black;
     font-size: 1.7em;
     margin: 0.7em 0;
 }
@@ -786,7 +785,7 @@ a.mail:hover {
     position: relative;
     font-size: 23px;
     padding: 10px;
-    background: #032F3E;
+    background: black;
     margin: 72px 0 25px 0;
 }
 .view p {
@@ -870,7 +869,7 @@ a.mail:hover {
     transition: .5s all;
 }
 .contact input[type="submit"]:hover {
-    background: #032F3E;
+    background: black;
 }
 address {
     margin-bottom: 0 ! important;
@@ -907,7 +906,7 @@ address {
     font-size: 1.5em;
     text-transform: capitalize;
     margin: 1em 0;
-    color: #032F3E;
+    color: black;
     text-align: left;
 }
 .about p {
@@ -930,7 +929,7 @@ address {
     font-size: 1.5em;
     text-transform: capitalize;
     margin: 1em 0 0;
-    color: #032F3E;
+    color: black;
     text-align: right;
 }
 .testimonials p {
@@ -945,7 +944,7 @@ address {
     font-size: 1.5em;
     text-transform: capitalize;
     margin: 1em 0;
-    color: #032F3E;
+    color: black;
     text-align: center;
 }
 .services p {
@@ -1111,7 +1110,7 @@ h3.bars {
     font-size: 2em;
     text-transform: capitalize;
     margin: 1em 0;
-    color: #032F3E;
+    color: black;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
