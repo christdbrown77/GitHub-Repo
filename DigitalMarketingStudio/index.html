@@ -1,362 +1,335 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+
     <title>Digital Marketing Studio</title>
 
-    <!-- For-Mobile-Apps -->
+    <!--Meta data-->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Digital Marketing Studio | Responsive Web design | Search Engine Optimization |" />
 
-    <script type="application/x-javascript">
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
+    <!--Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    </script>
-
-    <!--     Google Analytics-->
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-76204918-2', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-
-    <!-- //For-Mobile-Apps -->
-
-
-    <!-- Custom-Stylesheet-Links -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link rel="icon" href="/images/icon.ico">
-    <!-- //Custom-Stylesheet-Links -->
-
-    <!-- Web-Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-    <!-- //Web-Fonts -->
-
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!--gallery-->
-    <!--JS for animate-->
-    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-
-    </script>
-    <!--//end-animate-->
 </head>
 
-<body>
-    <!-- Banner -->
-    <div class="banner">
-        <!-- Header -->
-        <div class="header">
-            <div class="container">
-                <!-- Navbar -->
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand wow fadeInLeft animated" data-wow-delay=".5s" href="index.html">Digital Marketing Studio</a>
-                        </div>
-
-
-
-                        <div class="navbar-collapse collapse hover-effect wow fadeInRight animated" data-wow-delay=".5s" id="navbar">
-                            <ul>
-                                <li><a href="index.html" class="active">HOME</a></li>
-                                <li><a href="about.html"><span data-hover="ABOUT">ABOUT</span></a></li>
-                                <li><a href="services.html"><span data-hover="SERVICES">SERVICES</span></a></li>
-                                <li><a href="gallery.html"><span data-hover="GALLERY">GALLERY</span></a></li>
-                                <li><a href="contact.html"><span data-hover="CONTACT">CONTACT</span></a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </nav>
-                <!-- //Navbar -->
-
-            </div>
-        </div>
+    <!--Navigation-->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="banner-info">
-                
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#myPage">Digital Marketing Studio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
 
-                
-                <!-- FlexSlider -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="maxi.html">MAXI</a></li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+        <h1>Digital Marketing Studio</h1>
+        <p>Web Consultants</p>
     </div>
-    <!-- //Header -->
-    <!-- //Banner -->
-    <!-- agile -->
-    <div class="agile">
-        <div class="container">
-            <h3>About Us</h3>
-            <div class="about-top">
-                <div class="col-md-5 ab-text wow fadeInLeft animated" data-wow-delay=".5s">
-                    <img src="images/10.jpg" alt="Corporate image" class="img-responsive">
-                </div>
-                <div class="col-md-7 info wow fadeInRight animated" data-wow-delay=".5s">
-                    <div class="accordion">
-                        <div class="accordion-section">
-                            <h5><a class="accordion-section-title" href="#accordion-1">
-								 Chris Brown
-							<i class="glyphicon glyphicon-chevron-down"></i>
-							</a></h5>
-                            <div id="accordion-1" class="accordion-section-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
 
-                        <div class="accordion-section">
-                            <h5><a class="accordion-section-title" href="#accordion-2">
-								Claire Brown
-							<i class="glyphicon glyphicon-chevron-down"></i>
-							</a></h5>
-                            <div id="accordion-2" class="accordion-section-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-section">
-                            <h5><a class="accordion-section-title" href="#accordion-3">
-								Erin Brown
-							<i class="glyphicon glyphicon-chevron-down"> </i> 
-							</a></h5>
-                            <div id="accordion-3" class="accordion-section-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-section">
-                            <h5><a class="accordion-section-title" href="#accordion-4">
-								 Cara Brown
-							<i class="glyphicon glyphicon-chevron-down"> </i> 
-							</a></h5>
-                            <div id="accordion-4" class="accordion-section-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-section">
-                            <h5><a class="accordion-section-title" href="#accordion-5">
-								 Incididunt ut labore
-							<i class="glyphicon glyphicon-chevron-down"> </i> 
-							</a></h5>
-                            <div id="accordion-5" class="accordion-section-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="accordion-section">
-                            <h5><a class="accordion-section-title" href="#accordion-6">
-								 Adipiscing elit
-							<i class="glyphicon glyphicon-chevron-down"> </i> 
-							</a></h5>
-                            <div id="accordion-6" class="accordion-section-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <script>
-                        jQuery(document).ready(function() {
-                            function close_accordion_section() {
-                                jQuery('.accordion .accordion-section-title').removeClass('active');
-                                jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-                            }
-
-                            jQuery('.accordion-section-title').click(function(e) {
-                                // Grab current anchor value
-                                var currentAttrValue = jQuery(this).attr('href');
-
-                                if (jQuery(e.target).is('.active')) {
-                                    close_accordion_section();
-                                } else {
-                                    close_accordion_section();
-
-                                    // Add active class to section title
-                                    jQuery(this).addClass('active');
-                                    // Open up the hidden content panel
-                                    jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
-                                }
-
-                                e.preventDefault();
-                            });
-                        });
-
-                    </script>
-
-                </div>
-                <div class="clearfix"></div>
+    <!-- About Section -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-7">
+                <h2>About Company Page</h2><br>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</h4><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+                <br><button class="btn btn-default btn-lg">Get in Touch</button>
             </div>
-
-        </div>
-    </div>
-    <!-- //agile -->
-    <!-- w3l -->
-    <div class="w3l">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center w3ls">
-                    <h3>CB Section </h3>
-                    <p class="p1 animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Simply dummy text of the printing and the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-
-                </div>
-                <div class="clearfix"></div>
+            <div class="col-sm-5">
+                <img src="Images/1a.jpg" class="img-thumbnail" alt="About Us">
             </div>
         </div>
     </div>
-    <!-- //w3l -->
-    <!-- agileits -->
-    <div class="agileits">
-        <div class="container">
-            <h3>Projects</h3>
-            <div class="col-md-4 agileits-left wow fadeInLeft animated" data-wow-delay=".5s">
-                <div class="history-grid-image">
-                    <img src="images/6.jpg" class="img-responsive zoom-img" alt="">
-                </div>
-                <h4>CB Section 2</h4>
-                <p>Perspiciatis unde omnis iste natus error sit voluptatem consectetur adipiscing elit, sed do eiusmod tempor </p>
+
+    <!--Our values section -->
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="Images/1a.jpg" class="img-thumbnail" alt="About Us">
             </div>
-            <div class="col-md-4 agileits-left animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
-                <div class="history-grid-image">
-                    <img src="images/7.jpg" class="img-responsive zoom-img" alt="">
-                </div>
-                <h4>Adipiscing elit</h4>
-                <p>Perspiciatis unde omnis iste natus error sit voluptatem consectetur adipiscing elit, sed do eiusmod tempor </p>
-            </div>
-            <div class="col-md-4 agileits-left wow fadeInRight animated" data-wow-delay=".5s">
-                <div class="history-grid-image">
-                    <img src="images/2.jpg" class="img-responsive zoom-img" alt="">
-                </div>
-                <h4>Eiusmod tempor</h4>
-                <p>Perspiciatis unde omnis iste natus error sit voluptatem consectetur adipiscing elit, sed do eiusmod tempor </p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <!-- /agileits -->
-    <!-- wthree -->
-    <div class="wthree">
-        <div class="container">
-            <h3>Our Services</h3>
-            <div class="services-grids">
-                <div class="col-md-6 services-grid-left wow fadeInLeft animated" data-wow-delay=".5s">
-                    <div class="col-xs-4 services-grid-left1">
-                        <i class="hovicon effect-2 sub-a"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></i>
-                    </div>
-                    <div class="col-xs-8 services-grid-left2">
-                        <h4>Responsive</h4>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-md-6 services-grid-right wow fadeInRight animated" data-wow-delay=".5s">
-                    <div class="col-xs-4 services-grid-left1">
-                        <i class="hovicon effect-2 sub-a"><span class="glyphicon glyphicon-cog pp" aria-hidden="true"></span></i>
-                    </div>
-                    <div class="col-xs-8 services-grid-left2">
-                        <h4>Web Development</h4>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-            <div class="services-grids">
-                <div class="col-md-6 services-grid-left wow fadeInLeft animated" data-wow-delay=".5s">
-                    <div class="col-xs-4 services-grid-left1">
-                        <i class="hovicon effect-2 sub-a"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span></i>
-                    </div>
-                    <div class="col-xs-8 services-grid-left2">
-                        <h4>Web Marketing</h4>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-md-6 services-grid-right wow fadeInRight animated" data-wow-delay=".5s">
-                    <div class="col-xs-4 services-grid-left1">
-                        <i class="hovicon effect-2 sub-a"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></i>
-                    </div>
-                    <div class="col-xs-8 services-grid-left2">
-                        <h4>Web Security </h4>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="clearfix"> </div>
+            <div class="col-sm-8">
+                <h2>Our Values</h2><br>
+                <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+                <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
     </div>
-    <!-- //wthree -->
+
+    <!-- Services Section -->
+    <div id="services" class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small"></span>
+                <h4>POWER</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <h4>LOVE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <h4>JOB DONE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf logo-small"></span>
+                <h4>GREEN</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-certificate logo-small"></span>
+                <h4>CERTIFIED</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <h4 style="color:#303030;">HARD WORK</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+        <h2>Portfolio</h2><br>
+        <h4>What we have created</h4>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Images/2a.jpg" alt="Paris" width="400" height="300">
+                    <p><strong>Paris</strong></p>
+                    <p>Yes, we built Paris</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Images/3a.jpg" alt="New York" width="400" height="300">
+                    <p><strong>New York</strong></p>
+                    <p>We built New York</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Images/4a.jpg" alt="San Francisco" width="400" height="300">
+                    <p><strong>San Francisco</strong></p>
+                    <p>Yes, San Fran is ours</p>
+                </div>
+            </div>
+        </div><br>
+
+        <!--Customer feedback comments-->
+        <h2>What our customers say</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div id="pricing" class="container-fluid">
+        <div class="text-center">
+            <h2>Pricing</h2>
+            <h4>Choose a payment plan that works for you</h4>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Basic</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> Lorem</p>
+                        <p><strong>15</strong> Ipsum</p>
+                        <p><strong>5</strong> Dolor</p>
+                        <p><strong>2</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$19</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Pro</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>50</strong> Lorem</p>
+                        <p><strong>25</strong> Ipsum</p>
+                        <p><strong>10</strong> Dolor</p>
+                        <p><strong>5</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$29</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>100</strong> Lorem</p>
+                        <p><strong>50</strong> Ipsum</p>
+                        <p><strong>25</strong> Dolor</p>
+                        <p><strong>10</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$49</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Maps -->
+    <!--<div id="googleMap" style="height:400px;width:100%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2298.854416559635!2d-7.484394184411495!3d54.8176739803136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485fc4a098436f99%3A0xbf53dbb7f545bb31!2s94+Castlegrange+Park%2C+Strabane+BT82+9WD!5e0!3m2!1sen!2suk!4v1504213662702"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>-->
+
+
     <!-- Footer -->
     <div class="footer">
         <div class="container">
 
             <div class="footer-info">
-                <div class="col-md-3 col-sm-3 footer-info-grid newsletter wow fadeInLeft animated" data-wow-delay=".5s">
+                <div class="col-md-4 col-sm-4 footer-info-grid newsletter">
                     <h4>NEWSLETTER</h4>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit.</p>
+                    <p>Sign up for our newsletter</p>
 
                     <form action="#" method="post" class="newsletter">
                         <input class="email" type="email" placeholder="Your email...">
                         <input type="submit" class="submit" value="">
                     </form>
                 </div>
-                <div class="col-md-3 col-sm-3 footer-info-grid address animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
+                <div class="col-md-4 col-sm-4 footer-info-grid address">
                     <h4>ADDRESS</h4>
                     <address>
-						<ul>
-							<li>Quis autem vel</li>
-							<li>Sydney, Australia</li>
-							<li>Telephone : +2 (354) 456-78950</li>
-							<li>Email : <a class="mail" href="mailto:mail@example.com">info@example.com</a></li>
-						</ul>
-					</address>
+                        <ul>
+                            <li>94 XXXXXXXX Park</li>
+                            <li>XXXXXXX, New York</li>
+                            <li>Telephone : +2 (354) 456-78950</li>
+                            <li>Email : <a class="mail" href="mailto:mail@example.com">info@example.com</a></li>
+                        </ul>
+                    </address>
                 </div>
-                <div class="col-md-3 col-sm-3 footer-info-grid links animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
-                    <h4>Flickr Posts</h4>
-                    <ul>
-                        <li><img src="images/1.jpg" class="img-responsive" alt=" "></li>
-                        <li><img src="images/2.jpg" class="img-responsive" alt=" "></li>
-                        <li><img src="images/3.jpg" class="img-responsive" alt=" "></li>
-                        <li><img src="images/4.jpg" class="img-responsive" alt=" "></li>
-                        <li><img src="images/5.jpg" class="img-responsive" alt=" "></li>
-                        <li><img src="images/6.jpg" class="img-responsive" alt=" "></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-3 footer-info-grid social wow fadeInRight animated" data-wow-delay=".5s">
+
+                <div class="col-md-4 col-sm-4 footer-info-grid social">
                     <h4>Follow Us</h4>
                     <ul>
                         <li><a href="#"><span class="fa"> </span></a></li>
@@ -367,14 +340,52 @@
                 <div class="clearfix"></div>
             </div>
 
-            <div class="copyright animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
-                <p>&copy; 2016 Digital Marketing Studio </a>
+            <div class="copyright" data-wow-duration="1200ms" data-wow-delay="500ms">
+                <p>&copy; 2017 Digital Marketing Studio </a>
                 </p>
             </div>
 
         </div>
     </div>
-    <!-- //Footer -->
+
+    <!--Scroll functionality -->
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function () {
+                $(".slideanim").each(function () {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+
 </body>
 
 </html>
