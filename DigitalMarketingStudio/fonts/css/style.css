@@ -70,18 +70,19 @@ a:hover {
     background: url(../images/banner.jpg) no-repeat;
     width: 100%;
     display: block;
-    height: 730px;
+    height: 630px;
     background-size: cover;
 }
 .banner h1 {
     text-align: center;
-    color: #fff;
-    font-size: 2.2em;
+    /*color: #fff;*/
+    color: red;
+    font-size: 5.2em;
     margin: 0 0 1em;
 }
 .banner-info1 p {
     text-align: center;
-    color: #C5C4C4;
+    color: red;
     line-height: 1.8em;
     margin: 0;
 }
@@ -93,7 +94,8 @@ a:hover {
 /*-- //Reset-Code --*/
 
 .header {
-    /*background-color: rgba(35, 86, 82, 0.61);*/
+    /*    background-color: rgba(35, 86, 82, 0.61);*/
+    /*    background-color: rgba(15, 248, 239, 0.6);*/
     background-color: black;
 }
 
