@@ -4,6 +4,7 @@ export class StarWarsService {
     { name: 'Darth Vadar', side: '' },
     { name: 'Darth Maul', side: '' },
     { name: 'Yoda', side: '' },
+    { name: 'Anakin Skywalker', side: '' },
     { name: 'Chewbacca', side: '' },
   ];
 

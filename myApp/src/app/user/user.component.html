@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1>{{ name }}</h1>
+  <p><strong>Email:</strong> {{ email }}</p>
+  <p><strong>Address:</strong> {{ address.street }}</p>
+  <p><strong>Town:</strong> {{ address.town }}</p>
+  <p><strong>County:</strong> {{ address.county }}</p>
+
+  <button class="btn btn-danger" (click)="showHobbyList()">{{showHobbies ? "Hide Hobbies" : "Show Hobbies"}}</button>
+
+  <div class="hobbies" *ngIf="showHobbies">
+    <h3>Hobbies</h3>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let hobby of hobbies">{{ hobby }}</li>
+    </ul>
+  </div>
+</div>
