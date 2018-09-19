@@ -7,10 +7,37 @@
 
   <button class="btn btn-danger" (click)="showHobbyList()">{{showHobbies ? "Hide Hobbies" : "Show Hobbies"}}</button>
 
-  <div class="hobbies" *ngIf="showHobbies">
+  <hr>
+
+  <div class="toppadding" *ngIf="showHobbies">
     <h3>Hobbies</h3>
     <ul class="list-group">
-      <li class="list-group-item" *ngFor="let hobby of hobbies">{{ hobby }}</li>
+      <li class="list-group-item" *ngFor="let hobby of hobbies; let i = index ">
+        {{ hobby }} <button class=" pull-right" (click)="deleteHobby(i)">x</button>
+      </li>
     </ul>
+    <form (submit)="addHobby(hobby.value)">
+        <label>Add Hobby:</label>
+        <input type="text" class="form-control" #hobby ><br>
+    </form>
+
+    <hr>
   </div>
+
+  <form class="toppadding">
+      <div class="input-group">
+        <label>Name:</label>
+        <input type="text" class="form-control" name="name" [(ngModel)]="name"><br>
+        <label>Email:</label>
+        <input type="text" class="form-control" name="email" [(ngModel)]="email"><br>
+        <label>Address:</label>
+        <input type="text" class="form-control" name="address" [(ngModel)]="address.street"><br>
+        <label>Town:</label>
+        <input type="text" class="form-control" name="town" [(ngModel)]="address.town"><br>
+        <label>County:</label>
+        <input type="text" class="form-control" name="county" [(ngModel)]="address.county"><br>
+      </div>
+    </form>
+
+
 </div>

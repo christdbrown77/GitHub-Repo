@@ -25,6 +25,14 @@ export class UserComponent implements OnInit {
     }
   }
 
+  addHobby(hobby) {
+    this.hobbies.push(hobby);
+  }
+
+  deleteHobby(i) {
+    this.hobbies.splice(i, 1);
+  }
+
   constructor() { }
 
   ngOnInit() {
