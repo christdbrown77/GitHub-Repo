@@ -1,8 +1,10 @@
+import { PostserviceService } from './../postservice.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
+  providers: [PostserviceService],
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
@@ -16,6 +18,7 @@ export class UserComponent implements OnInit {
     town: 'Strabane',
     county: 'Tyrone'
   };
+  posts = [];
 
   showHobbyList() {
     if (this.showHobbies === true) {
@@ -33,7 +36,14 @@ export class UserComponent implements OnInit {
     this.hobbies.splice(i, 1);
   }
 
-  constructor() { }
+  constructor(private postservice: PostserviceService) {
+
+    this.postservice.getPosts().subscribe(posts => {
+      console.log(posts);
+      this.posts = posts;
+    });
+
+  }
 
   ngOnInit() {
   }
