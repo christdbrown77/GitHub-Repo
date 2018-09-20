@@ -1,9 +1,3 @@
-<h1>Welcome to {{ title }}</h1>
-<div class="menu">
-    <button class="btn btn-danger" routerLink="/">Home</button>
-    <button class="btn btn-danger" routerLink="/about">About</button>
-</div>
-
 <div class="jumbotron">
   <h1>{{ name }}</h1>
   <p><strong>Email:</strong> {{ email }}</p>
@@ -46,13 +40,16 @@
   </form>
 
   <hr>
-
-  <ul class="list-group">
-    <li class="list-group-item" *ngFor="let post of posts">
-      <h4>{{post.title}}</h4>
-      {{post.body}}
-    </li>
-  </ul>
-
-
 </div>
+
+<div class="jumbotron">
+  <h3>Posts from API</h3>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let post of posts">
+          <h4>{{post.title}}</h4>
+          {{post.body}}
+        </li>
+      </ul>
+</div>
+
+
