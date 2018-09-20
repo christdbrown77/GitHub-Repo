@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  title = 'my app';
+  title = 'the home page';
   name = 'Chris Brown';
   email = 'christdbrown77@gmail.com';
   hobbies = ['Soccer', 'Athletics', 'Golf', 'GAA'];
