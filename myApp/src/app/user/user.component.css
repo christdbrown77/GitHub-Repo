@@ -2,6 +2,10 @@
   background-color: aqua;
 }
 
+.container{
+  padding:2%;
+}
+
 .toppadding{
   padding-top: 1%;
 }
