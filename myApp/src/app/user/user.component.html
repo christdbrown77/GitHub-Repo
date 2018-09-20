@@ -1,57 +1,58 @@
-<div class="container">
-  <h1>
-    Welcome to {{ title }}
-  </h1>
-  <div class="jumbotron">
-    <h1>{{ name }}</h1>
-    <p><strong>Email:</strong> {{ email }}</p>
-    <p><strong>Address:</strong> {{ address.street }}</p>
-    <p><strong>Town:</strong> {{ address.town }}</p>
-    <p><strong>County:</strong> {{ address.county }}</p>
-
-    <button class="btn btn-danger" (click)="showHobbyList()">{{showHobbies ? "Hide Hobbies" : "Show Hobbies"}}</button>
-
-    <hr>
-
-    <div class="toppadding" *ngIf="showHobbies">
-      <h3>Hobbies</h3>
-      <ul class="list-group">
-        <li class="list-group-item" *ngFor="let hobby of hobbies; let i = index">
-          {{ hobby }} <button class=" pull-right" (click)="deleteHobby(i)">x</button>
-        </li>
+<h1>Welcome to {{ title }}</h1>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/about">About</a></li>
       </ul>
-      <form (submit)="addHobby(hobby.value)">
-        <label>Add Hobby:</label>
-        <input type="text" class="form-control" #hobby><br>
-      </form>
 
-      <hr>
-    </div>
+<div class="jumbotron">
+  <h1>{{ name }}</h1>
+  <p><strong>Email:</strong> {{ email }}</p>
+  <p><strong>Address:</strong> {{ address.street }}</p>
+  <p><strong>Town:</strong> {{ address.town }}</p>
+  <p><strong>County:</strong> {{ address.county }}</p>
 
-    <form class="toppadding">
-      <div class="input-group">
-        <label>Name:</label>
-        <input type="text" class="form-control" name="name" [(ngModel)]="name"><br>
-        <label>Email:</label>
-        <input type="text" class="form-control" name="email" [(ngModel)]="email"><br>
-        <label>Address:</label>
-        <input type="text" class="form-control" name="address" [(ngModel)]="address.street"><br>
-        <label>Town:</label>
-        <input type="text" class="form-control" name="town" [(ngModel)]="address.town"><br>
-        <label>County:</label>
-        <input type="text" class="form-control" name="county" [(ngModel)]="address.county"><br>
-      </div>
+  <button class="btn btn-danger" (click)="showHobbyList()">{{showHobbies ? "Hide Hobbies" : "Show Hobbies"}}</button>
+
+  <hr>
+
+  <div class="toppadding" *ngIf="showHobbies">
+    <h3>Hobbies</h3>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let hobby of hobbies; let i = index">
+        {{ hobby }} <button class=" pull-right" (click)="deleteHobby(i)">x</button>
+      </li>
+    </ul>
+    <form (submit)="addHobby(hobby.value)">
+      <label>Add Hobby:</label>
+      <input type="text" class="form-control" #hobby><br>
     </form>
 
     <hr>
-
-    <ul class="list-group">
-      <li class="list-group-item" *ngFor="let post of posts">
-        <h4>{{post.title}}</h4>
-        {{post.body}}
-      </li>
-    </ul>
-
-
   </div>
+
+  <form class="toppadding">
+    <div class="input-group">
+      <label>Name:</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]="name"><br>
+      <label>Email:</label>
+      <input type="text" class="form-control" name="email" [(ngModel)]="email"><br>
+      <label>Address:</label>
+      <input type="text" class="form-control" name="address" [(ngModel)]="address.street"><br>
+      <label>Town:</label>
+      <input type="text" class="form-control" name="town" [(ngModel)]="address.town"><br>
+      <label>County:</label>
+      <input type="text" class="form-control" name="county" [(ngModel)]="address.county"><br>
+    </div>
+  </form>
+
+  <hr>
+
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let post of posts">
+      <h4>{{post.title}}</h4>
+      {{post.body}}
+    </li>
+  </ul>
+
+
 </div>
