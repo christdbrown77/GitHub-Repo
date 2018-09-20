@@ -1,0 +1,11 @@
+<div class="row display-flex">
+  <div class="col-md-3" *ngFor="let image of images">
+      <div class="thumbnail" >
+          <img src="{{image.url}}">
+          <div class="caption">
+            <h4>{{image.title}}</h4>
+          </div>
+        </div>
+  </div>
+</div>
+
