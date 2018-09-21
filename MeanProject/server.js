@@ -19,13 +19,15 @@ app.use(express.static(path.join(__dirname, 'client')));
 
 // Body Parser
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
 
 // Routes
 app.use('/', index);
 app.use('/api', tasks);
 
 // Listen
-app.listen(port, function(){
+app.listen(port, function () {
     console.log('Server Starter on Port: ' + port);
 });
