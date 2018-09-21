@@ -9,13 +9,15 @@ import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
 import { PhotosComponent } from './photos/photos.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     AboutComponent,
-    PhotosComponent
+    PhotosComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule, routing

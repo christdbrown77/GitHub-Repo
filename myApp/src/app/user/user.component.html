@@ -6,6 +6,7 @@
   <p><strong>County:</strong> {{ address.county }}</p>
 
   <button class="btn btn-danger" (click)="showHobbyList()">{{showHobbies ? "Hide Hobbies" : "Show Hobbies"}}</button>
+  <button class="btn btn-danger" (click)="editUserDetails()">{{editDetails ? "Save Details" : "Edit Details"}}</button>
 
   <hr>
 
@@ -20,11 +21,9 @@
       <label>Add Hobby:</label>
       <input type="text" class="form-control" #hobby><br>
     </form>
-
-    <hr>
   </div>
 
-  <form class="toppadding">
+  <form class="toppadding" *ngIf="editDetails">
     <div class="input-group">
       <label>Name:</label>
       <input type="text" class="form-control" name="name" [(ngModel)]="name"><br>
@@ -38,18 +37,4 @@
       <input type="text" class="form-control" name="county" [(ngModel)]="address.county"><br>
     </div>
   </form>
-
-  <hr>
 </div>
-
-<div class="jumbotron">
-  <h3>Posts from API</h3>
-    <ul class="list-group">
-        <li class="list-group-item" *ngFor="let post of posts">
-          <h4>{{post.title}}</h4>
-          {{post.body}}
-        </li>
-      </ul>
-</div>
-
-
