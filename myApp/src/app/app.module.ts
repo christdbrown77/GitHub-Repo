@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
 import { PhotosComponent } from './photos/photos.component';
 import { CommentsComponent } from './comments/comments.component';
+import { MoviesComponent } from './movies/movies.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CommentsComponent } from './comments/comments.component';
     UserComponent,
     AboutComponent,
     PhotosComponent,
-    CommentsComponent
+    CommentsComponent,
+    MoviesComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule, routing

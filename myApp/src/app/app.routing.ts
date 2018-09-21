@@ -6,6 +6,7 @@ import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
 import { PhotosComponent } from './photos/photos.component';
 import { CommentsComponent } from './comments/comments.component';
+import { MoviesComponent } from './movies/movies.component';
 
 
 const appRoutes: Routes = [
@@ -24,6 +25,10 @@ const appRoutes: Routes = [
   {
     path: 'comments',
     component: CommentsComponent
+  },
+  {
+    path: 'movies',
+    component: MoviesComponent
   }
 ];
 
