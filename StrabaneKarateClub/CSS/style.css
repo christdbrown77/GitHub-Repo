@@ -10,6 +10,9 @@ h2 {
     font-weight: 600;
     margin-bottom: 30px;
 }
+h5{
+    color: black;
+}
 h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -184,4 +187,10 @@ footer .glyphicon {
     .logo {
         font-size: 150px;
     }
+}
+
+.dmsfooter{
+    background-color: black;
+    color: white;
+    padding-bottom: 2px;
 }
