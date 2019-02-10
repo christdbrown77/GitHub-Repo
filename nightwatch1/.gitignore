@@ -1,0 +1,8 @@
+node_modules/
+selenium-debug.log
+bin/
+package-lock.json
+reports/
+screenshots/
+
+
