@@ -12,7 +12,10 @@
       "webdriver.gecko.driver": "./bin/geckodriver.exe"
     }
   },
-
+  "test_workers": {
+    "enabled": true,
+    "workers": "auto"
+  },
   "test_settings": {
     "default": {
       "launch_url": "http://localhost",
@@ -34,10 +37,13 @@
             "ignore-certificate-errors"
           ]
         },
-        "javascriptEnabled": true,
-        "acceptSslCerts": true
+        "firefox": {
+          "desiredCapabilities": {
+            "browserName": "firefox",
+            "marionette": true
+          }
+        }
       }
-
     }
   }
 }

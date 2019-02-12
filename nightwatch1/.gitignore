@@ -4,5 +4,6 @@ bin/
 package-lock.json
 reports/
 screenshots/
+selenium-server.log
 
 
