@@ -17,6 +17,8 @@
 
 # Dependency directories
 node_modules
+reports
+selenium-server.log
 
 # Run-time test reports
 reports

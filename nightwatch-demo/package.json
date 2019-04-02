@@ -4,7 +4,7 @@
   "description": "Nightwatch Demo",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch -c nightwatch.conf.js -e chrome,firefox"
+    "test": "nightwatch -c nightwatch.local.conf.js -e chrome"
   },
   "author": "Chris Brown",
   "license": "ISC",
