@@ -25,8 +25,8 @@
       "launch_url" : "http://localhost",
       "selenium_port"  : 80,
       "selenium_host"  : "ondemand.saucelabs.com",
-      "username" : "christddbrown77",
-      "access_key" : "252efd04-10e3-466b-915b-3b8c79df8d53",
+      "username" : "x168946",
+      "access_key" : "cf9b9587-67e8-4b6a-bcee-2cb861f020d8",
       "silent": true,
       "screenshots" : {
         "enabled" : false,

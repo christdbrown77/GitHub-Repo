@@ -1,0 +1,19 @@
+{
+  "name": "np-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "nightwatch -c ./config/nightwatch.local.config.js -e chrome --reporter ./html-reporter.js",
+    "remote": "nightwatch -c ./nightwatch.config.js -e default tests --reporter ./html-reporter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "geckodriver": "^1.16.2",
+    "nightwatch": "^1.0.19",
+    "nightwatch-html-reporter": "^2.0.6",
+    "selenium-server": "^3.141.59"
+  }
+}
