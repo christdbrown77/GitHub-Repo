@@ -1,8 +1,7 @@
 var HtmlReporter = require('nightwatch-html-reporter');
 /* Same options as when using the built in nightwatch reporter option */
 var reporter = new HtmlReporter({
-    /* True or False.  If true the generated html will be opened
-          in your browser after the test run. */
+    /* True or False.  If true the generated html will be opened in your browser after the test run. */
     openBrowser: true,
 
     /* The directory you've set nightwatch to store your reports.
@@ -22,8 +21,7 @@ var reporter = new HtmlReporter({
     /* The theme that will be used to generate the html report. This should match a directory under the lib/themes directory. */
     themeName: 'default',
 
-    /* Relative path to custom theme. When this is given,
-    `themeName` will be ignored. */
+    /* Relative path to custom theme. When this is given, `themeName` will be ignored. */
     /* customTheme: 'relative/path/to/theme.pug', */
 
     /* If true then only errors will be shown in the report. */

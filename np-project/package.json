@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "local": "nightwatch -c ./config/nightwatch.local.config.js -e chrome --reporter ./html-reporter.js",
-    "remote": "nightwatch -c ./nightwatch.config.js -e default tests --reporter ./html-reporter.js"
+    "local": "nightwatch -c ./config/local/nightwatch.config.js -e chrome --reporter ./html-reporter/html-reporter.js",
+    "remote": "nightwatch -c ./config/remote/nightwatch.config.js -e default tests --reporter ./html-reporter/html-reporter.js"
   },
   "author": "",
   "license": "ISC",
