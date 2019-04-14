@@ -108,52 +108,6 @@
           "environment":"windows10-firefox47"
         }
       }
-    },
-    "local-chrome" : {
-      "desiredCapabilities": {
-        "name" : "Nightwatch Skeleton - local-chrome",
-        "browserName" : "chrome"
-      },
-      "globals" : {
-        "propertyData" : {
-          "environment":"local-chrome"
-        }
-      },
-      "selenium_host" : "localhost",
-      "selenium" : {
-        "start_process" : true
-      }
-    },
-    "local-firefox" : {
-      "desiredCapabilities": {
-        "name" : "Nightwatch Skeleton - local-firefox",
-        "browserName" : "firefox",
-        "marionette" : true
-      },
-      "globals" : {
-        "propertyData" : {
-          "environment":"local-firefox"
-        }
-      },
-      "selenium_host" : "localhost",
-      "selenium" : {
-        "start_process" : true
-      }
-    },
-    "local-safari" : {
-      "desiredCapabilities": {
-        "name" : "Nightwatch Skeleton - local-safari",
-        "browserName" : "safari"
-      },
-      "globals" : {
-        "propertyData" : {
-          "environment":"local-safari"
-        }
-      },
-      "selenium_host" : "localhost",
-      "selenium" : {
-        "start_process" : true
-      }
     }
   }
 }
