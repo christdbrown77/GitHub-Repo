@@ -1,5 +1,6 @@
 console.log("Successfully connected to Binding scripts");
 
+// John
 var john = {
     name: 'John',
     age: 28,
@@ -14,5 +15,17 @@ var john = {
 
 }
 
+// Emily
+var emily ={
+    name: 'Emily',
+    age: 32,
+    job: 'designer'
+}
+
+// call the presentation method for John
 john.presentation('formal','morning');
 john.presentation('casual','evening')
+
+// Apply the presentation method stored in the john object to emily - "method borrowing" - call method
+john.presentation.call(emily, 'formal', 'evening');
+john.presentation.call(emily, 'casual', 'evening');
