@@ -1,9 +1,0 @@
-node_modules/
-selenium-debug.log
-package-lock.json
-reports/
-screenshots/
-selenium-server.log
-*.log
-
-
