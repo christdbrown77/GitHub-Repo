@@ -1,62 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.14/dist/shoelace/shoelace.css"/>
-    <link rel="stylesheet" href="./main.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Pru Button</title>
+</head>
+<body>
 
-    <title>Shoelace</title>
-  </head>
-
-  <body>
-      <p>
-    <sl-button type="default" href="https://www.google.com">Default</sl-button>
-    <sl-button type="primary">Primary</sl-button>
-    <sl-button type="success">Success</sl-button>
-    <sl-button type="info">Info</sl-button>
-    <sl-button type="warning">Warning</sl-button>
-    <sl-button type="danger">Danger</sl-button>
-</p>
-
-<sl-card class="card-footer">
-    This card has a footer. You can put all sorts of things in it!
-  
-    <div slot="footer">
-      <sl-rating></sl-rating>
-      <sl-button slot="footer" type="primary">Preview</sl-button>
-    </div>
-  </sl-card>
-
-  <sl-card class="card-header">
-    <div slot="header">
-        Header Title
-        <sl-icon-button name="gear"></sl-icon-button>
-    </div>
-  
-    This card has a header. You can put all sorts of things in it!
-  </sl-card>
-
-
-  <sl-tab-group>
-    <sl-tab slot="nav" panel="general">General</sl-tab>
-    <sl-tab slot="nav" panel="custom">Custom</sl-tab>
-    <sl-tab slot="nav" panel="advanced">Advanced</sl-tab>
-    <sl-tab slot="nav" panel="disabled">Disabled</sl-tab>
-  
-    <sl-tab-panel name="general">This is the general tab panel.</sl-tab-panel>
-    <sl-tab-panel name="custom"> <sl-card class="card-header">
-        <div slot="header">
-            Header Title
-            <sl-icon-button name="gear"></sl-icon-button>
-        </div></sl-tab-panel>
-    <sl-tab-panel name="advanced">This is the advanced tab panel.</sl-tab-panel>
-    <sl-tab-panel name="disabled">This is a disabled tab panel.</sl-tab-panel>
-  </sl-tab-group>
-  
- 
-
-      
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.14/dist/shoelace/shoelace.esm.js"></script>
-  </body>
+    <pru-button></pru-button>
+    
+    <script  src="./js/pru-button.js"></script>
+</body>
 </html>
