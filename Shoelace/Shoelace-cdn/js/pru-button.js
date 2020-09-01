@@ -14,3 +14,5 @@ class pruButton extends HTMLElement {
 }
 
 customElements.define('pru-button', pruButton);
+
+export {pruButton};
