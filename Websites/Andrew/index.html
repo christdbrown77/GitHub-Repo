@@ -1,103 +1,230 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76204918-4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-76204918-4');
-  </script>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel='shortcut icon' type='image/x-icon' href='./images/hhc.ico' />
-  <title>The Hearing Health Clinic</title>
-  <meta name="description" content="The Hearing Health Clinic">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./styles/style.css">
+    <title>The Hearing Health Clinic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' type='image/x-icon' href='./images/hhc.ico' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
 
-<body>
 
-  <div class="container">
-    <img src="./images/HHC-01.jpg" class="rounded mx-auto d-block hhc" alt="The Hearing Health Clinic">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="100">
 
-    <div class="jumbotron">
-      As part of the ongoing COVID-19 measures, we are operating several safety measures in our premises, including social distancing and hand sanitising for customers when they enter our main office. We will continue to provide the best service possible to all, whilst ensuring the safety of our staff and customers - #staysafe
-    </div>
-
-    <h3 class="text-center">Giving you the control for better hearing</h3>
-
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="./images/wax removal.jpg" alt="EAR WAX REMOVAL">
-          <div class="card-body">
-            <h5 class="card-title">EAR WAX REMOVAL</h5>
-            <p class="card-text">
-              The micro suction technique uses gentle suction to clear the blocked canals of ear wax, it is much more comfortable and safer in comparison to other methods such as syringing or irrigation.  <p>No ear drops required prior to the appointment, so no need to apply ear drops for days before the appointment.</p>
-            </p>
-          </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">The Hearing Health Clinic</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#hero">HEARING HEALTH HERO</a></li>
+                    <li><a href="#pricing">PRICES</a></li>
+                    <li><a href="#location">LOCATIONS</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-        <img class="card-img-top" src=".//images/Oticon_CROS_Seminar_AS_226045694.jpg" alt="HEARING TESTS">
-        <div class="card-body">
-          <h5 class="card-title">HEARING TESTS</h5>
-          <p class="card-text">
-            Across the UK, 1 in 6 people have some form of hearing loss and everyday people are making the courageous step in seeking help to hear better.  <p>Here at the HHC, we strive to support these individuals by creating a place of trust, understanding and professionalism to help make a fully informed decision regarding the treatment of your hearing loss.</p>
-          </p>
-        </div>
-      </div>
-    </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src=".//images/hearing aids collection.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">HEARING AID TECHNOLOGIES</h5>
-            <p class="card-text">
-              We are a fully independent hearing clinic with access to a wide range of hearing aid technologies and styles to suit your needs, requirements, and budget. <p>We offer a trial period with the hearing aid technologies so that you can feel the benefit and be confident in your decision making and with our all-inclusive service package you can feel secure about your future ongoing care.</p>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row bottom">
-      <div class="col-md-7">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.0745616724835!2d-7.305943684629189!3d54.60267908756633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485fd308797d67e9%3A0xaea5c7e9db9aa6a9!2sThe%20Spectacle%20Maker!5e0!3m2!1sen!2suk!4v1599593693908!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
-      <div class="col-md-5">
-        
-        <address>
-          <strong>The Hearing Health Clinic</strong><br>
-            (above café nero in the Spectacle Maker opticians) <br>
-            <p>Unit 12 Showgrounds retail Park<br>
-            Omagh<br>
-            BT79 7AQ
-          </p>
-          <p>
-            Tel: <a href="tel:00442882257861">02882 257861</a><br>
-            Email: <a href="mailto:andy@thehhc.co.uk">andy@thehhc.co.uk</a>
-        </p>
-        </address>
-      </div>
-    </div>
-  </div>
+    </nav>
 
+    <!-- Jumbotron-->
+    <div class="jumbotron text-center">
+        <img src="./images/HHC-01.jpg" class="rounded mx-auto d-block hhc" alt="The Hearing Health Clinic">
+        <h2>Giving you the control for better hearing.</h2>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="./scripts/script.js"></script>
+    <!-- Container (About us Section) -->
+    <div id="about" class="container section-top">
+        <div class="text-center">
+            <h2>ABOUT US</h2>
+        </div>
+        <div class="row">
+            <h4>Across the UK, 1 in 6 people have some form of hearing loss and everyday people are making the
+                courageous step in looking for help to hear better. Here at The Hearing Health Clinic, we strive to
+                support these individuals by creating an environment of trust, empathy, understanding and
+                professionalism so that you can make a fully informed decision regarding the treatment of your hearing
+                loss.</h4>
+            <h4>Hearing Health Clinic is proudly independent and able to offer our clients the best solutions from the
+                world’s top brands. We never, ever pay commissions or set sales targets on hearing aid fittings or any
+                other product or service. Our priority is to provide you with a professional assessment, unbiased
+                advice, and information in order that our clients can make fully informed decisions.</h4>
+        </div>
+    </div>
+
+    <!-- Container (Services Section) -->
+    <div id="services" class="container section-top">
+        <div class="text-center">
+            <h2>Services</h2>
+        </div>
+        <div class="row slideanim">
+            <div class="col-xs-12">
+                <div class="panel panel-default">
+                    <div class="col-sm-4 panel-heading">
+                        <img src="images/waxremoval.jpg" class="img-responsive img-rounded service-image">          
+                    </div>
+                    <div class="panel-body">
+                        <h3>Ear wax removal</h3>
+                        <p>The micro suction technique, performed by our HCPC registered audiologist, uses gentle suction to clear the blocked ear canals, it is much more comfortable and safer in Comparison to other methods such as syringing. </p>
+                        <p>A thin probe is directed at the ear wax and a gentle suction is applied to remove the troublesome ear wax.</p> 
+                        <p>The appointment should last no more than 30 minutes approximately. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="panel panel-default">
+                    <div class="col-sm-4 panel-heading">
+                        <img src="images/healthchecks.jpg" class="img-responsive img-rounded service-image">
+                        
+                    </div>
+                    <div class="panel-body">
+                        <h3>Hearing Health Checks </h3>
+                        <p>During the Hearing Health Check, an inspection of the ear, the ear canal and the ear drum will be performed to ensure everything is healthy. We will perform a screening test which will indicate if you require further investigation into any possible hearing loss.</p>
+                        <p>This appointment is ideal for those who are unsure if they require further investigation and may have some questions, they would like answered by a hearing professional.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-xs-12">
+                <div class="panel panel-default">
+                    <div class="col-sm-4 panel-heading">
+                        <img src="images/consultation.jpg" class="img-responsive img-rounded service-image">
+                        
+                    </div>
+                    <div class="panel-body">
+                        <h3>Hearing aid consultations</h3>
+                        <p>During our Hearing Aid Consultations, our HCPC registered audiologist will perform a full
+                            hearing test investigating the health of the ears and any hearing loss that may be
+                            present. We will explain the results and nature of any hearing loss that was detected
+                            during testing. </p>
+                        <p> The audiologist will discuss the appropriate treatment options that are available, be it
+                            a referral to an ENT department if necessary or a discussion regarding the different
+                            types of hearing aid technology that is available. </p>
+                        <p>By the end of this appointment you will have been provided with as much information as
+                            possible regarding hearing loss and hearing aid technology options so you can make a
+                            decision regarding the treatment of your hearing loss that is best for you. </p>
+                        <p>The Hearing Aid Consultation fee is return as discount if you decide to go ahead with
+                            hearing aid technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Hearing Hero Section) -->
+    <div id="hero" class="container section-top">
+        <div class="text-center">
+            <h2>Become a Hearing Health Hero</h2>
+        </div>
+        <div class="row">
+            <img src="images/Family_BBQ.jpg" class="img-responsive hero-img img-rounded">
+            <div class="row">
+                <p>Is your grandmother struggling to follow a conversation, is your father misunderstanding what was said to him, is your husband or wife having the TV up too loud or struggling in groups, why not support them and become their Hearing Health Hero.</p>
+                <p>A <strong>Hearing Health Hero</strong> is a person who will support and give encouragement to those struggling with their hearing loss.</p>Helping them through their rehabilitation journey so that they can become a successful hearing aid user and be part of conversation rather than an observer. Hearing loss can leave people feeling cut off from those they are close too, isolated and withdrawn, increasing the risk of social isolation loneliness and depression, but you can help by being their Hearing Health Hero.</p>
+                <p>Contact The Hearing Health Clinic giving the information for the person you want to support (with their consent) through their hearing aid journey. We will arrange an appointment so you both can attend the clinic, gaining an understanding of the nature of hearing loss and its impact on an individual.</p>
+                <p>We recommend you view our hearing aid price lists before your appointment so that you have an idea of how much hearing aid technology can cost.</p>
+                <p>If the person you are supporting decides to pursue the use of hearing aids and successfully completes their rehabilitation journey you as the Hearing Health Hero will be rewarded with <STRONG>£150*.</STRONG></p>
+                <p>
+                    Tel: <a href="tel:00442896922929 ">02896 922 929 </a> or <a href="tel:00447808642858">07808 642858</a><br>
+                    Email: <a href="mailto:andy@thehhc.co.uk">andy@thehhc.co.uk</a>
+                </p>
+                <p><i>*terms and conditions apply contact The Hearing Health Clinic for details</i></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Pricing Section) -->
+    <div id="pricing" class="container section-top  ">
+        <div class="text-center">
+            <h2>Pricing</h2>
+            <h3>Hearing Aids – Do you know what you are paying for?</h3>
+        </div>
+        <div class="row">
+            <p>At first glance hearing aid prices can appear to be expensive however once the cost of the hearing aids are divided by the approximate life span that they are expected to last and worn they can be the equivalent to most mobile phone contracts.  The main difference being that the payment of hearing aids is made in full at the time of fitting.  </p>
+            <p>It is important to remember that hearing aids are worn continuously throughout the day, 365 days a year, and that the price includes the professional service of the hearing professional to provide an aftercare service for as long as you wish to avail of it.  At the Hearing Health Clinic, we are always open, honest, and clear with our information and that applies to our charges for hearing aid technology. </p>
+            <p>This gives you the opportunity to compare technology options (where possible not all providers disclose their prices), and although you will still need to attend an appointment so the hearing professional can help you figure out what technology is most appropriate to your life style and budget, the ability to compare technology options will ensure you are getting the best value for your investment.  </p>
+
+        </div>
+    </div>
+
+    <!-- Container (Location Section) -->
+    <div id="location" class="container section-top">
+        <div class="text-center">
+            <h2>LOCATIONS</h2>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>HOLLYWOOD</h1>
+                    </div>
+                    <div class="panel-body">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2308.809300780767!2d-5.8379062846274135!3d54.64257608453028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48610b3a40511279%3A0x7c2fb999fa57c244!2sThe%20Hearing%20Health%20Clinic!5e0!3m2!1sen!2suk!4v1606047577982!5m2!1sen!2suk"
+                            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="panel-footer">
+                        <H4>
+                            The Hearing Health Clinic<br>The Postmasters House<br>33 Shore Road<br>Holywood<br>BT19 9HX
+                        </H4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>OMAGH</h1>
+                    </div>
+                    <div class="panel-body">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.0533547102946!2d-7.305909484629148!3d54.60305268753795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485fd3f3e78c10e5%3A0x53c39caa03071373!2sThe%20Hearing%20Health%20Clinic!5e0!3m2!1sen!2suk!4v1606047695840!5m2!1sen!2suk"
+                            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="panel-footer">
+                        <h4>
+                            The Hearing Health Clinic<br>Unit 12<br>Showgrounds Retail Park<br>Omagh<br>BT79 7AQ
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer container-fluid">
+        <h3>The Hearing Health Clinic</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                Follow us on:
+                <a href="ttps://www.facebook.com/thehhcholywood/" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="col-sm-6">
+                Tel: <a href="tel:00442896922929 ">02896 922 929 </a> or <a href="tel:00447808642858">07808 642
+                    858</a><br>
+                Email: <a href="mailto:andy@thehhc.co.uk">andy@thehhc.co.uk</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

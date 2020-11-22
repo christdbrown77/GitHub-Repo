@@ -1,0 +1,23 @@
+.card-img-top{
+  height:12rem;
+}
+
+.card {
+  min-height: 34rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.hhc {
+  width: 30%;
+  height: auto;
+  margin: 1rem 0 1rem 0;
+}
+
+.jumbotron {
+  background: yellow;
+}
+
+.bottom {
+  padding-bottom: 3%;
+}
+

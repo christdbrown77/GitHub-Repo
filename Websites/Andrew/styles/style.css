@@ -1,23 +1,190 @@
-.card-img-top{
-  height:12rem;
+body {
+  font: 400 1.5rem Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
 }
 
-.card {
-  min-height: 34rem;
-  margin: 1rem 0 1rem 0;
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #32364f;
 }
 
+h4 {
+  font-size: 2rem;
+  line-height: 1.375em;
+  color: #32364f;
+}
+
+.row {
+  margin-left: 0rem;
+  margin-right: 0rem;;
+}
+
+.jumbotron {
+  background-color: #fff;
+  color: #32364f;
+  padding-top: 8rem;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+}
+
+
+.panel {
+  border: 0.1rem solid #32364f;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+  background-color: #fff;
+}
+
+.panel-default>.panel-heading {
+  background-color: white;
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #32364f;
+  z-index: 9999;
+  border: 0;
+  font-size: 1rem !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 0.3rem;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #32364f !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+/* Custom CSS */
 .hhc {
   width: 30%;
   height: auto;
   margin: 1rem 0 1rem 0;
 }
 
-.jumbotron {
-  background: yellow;
+.service-image {
+  height: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bottom {
-  padding-bottom: 3%;
+.hero-img {
+  width: 50%;
+  height: auto;
+  margin: 1rem 0 1rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.footer {
+  background-color: #32364f;
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.fa {
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.section-top {
+  padding-top: 5%;
+}
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+  .hhc {
+    width: 80%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .jumbotron {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .row {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 12rem;
+  }
+
+  .hhc {
+    width: 60%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
 
