@@ -21,7 +21,10 @@
   }
 
   .jumbotron {
-      background-color: black;
+      background-image: url('../images/banner.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
@@ -73,175 +76,197 @@
 
   /*-- Footer --*/
 
-.footer {
-    background-color: black;
-}
-.footer-info {
-    margin-top: 50px;
-}
-.footer h4 {
-    color: #fff;
-    padding: 20px 0 25px;
-    font-weight: 600;
-    text-align: left;
-    font-size: 1.5em;
-}
-.footer-info li {
-    color: #B7B4B4;
-    display: block;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-}
+  .footer {
+      background-color: black;
+  }
 
-/*-- Newsletter --*/
+  .footer-info {
+      margin-top: 50px;
+  }
 
-.footer-info p {
-    color: #B7B4B4;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 23px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-.newsletter {
-    position: relative;
-}
-.newsletter .email {
-    padding: 5px 60px 5px 15px;
-    border-radius: 3px;
-    -Webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    height: 40px;
-    border: 1px solid #fff;
-    width: 100%;
-    text-align: left;
-}
-.newsletter .email {
-    color: #bcc0c4;
-    background-color: #F4F4F4;
-    border: none;
-}
-.newsletter .submit {
-    width: 40px;
-    height: 40px;
-    background-image: url('../images/subscribe.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    background-color: #4484ce;
-    top: 0;
-    right: 0;
-    border: none;
-}
+  .footer h4 {
+      color: #fff;
+      padding: 20px 0 25px;
+      font-weight: 600;
+      text-align: left;
+      font-size: 1.5em;
+  }
 
-/*-- //Newsletter --*/
+  .footer-info li {
+      color: #B7B4B4;
+      display: block;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+  }
+
+  /*-- Newsletter --*/
+
+  .footer-info p {
+      color: #B7B4B4;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 20px;
+      text-align: left;
+  }
+
+  .newsletter {
+      position: relative;
+  }
+
+  .newsletter .email {
+      padding: 5px 60px 5px 15px;
+      border-radius: 3px;
+      -Webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      height: 40px;
+      border: 1px solid #fff;
+      width: 100%;
+      text-align: left;
+  }
+
+  .newsletter .email {
+      color: #bcc0c4;
+      background-color: #F4F4F4;
+      border: none;
+  }
+
+  .newsletter .submit {
+      width: 40px;
+      height: 40px;
+      background-image: url('../images/subscribe.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      background-color: #4484ce;
+      top: 0;
+      right: 0;
+      border: none;
+  }
+
+  /*-- //Newsletter --*/
 
 
-/*-- Copyright --*/
+  /*-- Copyright --*/
 
-.copyright {
-    text-align: center;
-    padding: 30px 0;
-}
-.copyright p {
-    color: #FFF;
-}
-.copyright a {
-    color: #FFF;
-    text-decoration: none;
-}
-.copyright a:hover {
-    color: #B7B4B4;
-    text-decoration: underline;
-}
+  .copyright {
+      text-align: center;
+      padding: 30px 0;
+  }
 
-/*-- //Copyright --*/
+  .copyright p {
+      color: #FFF;
+  }
 
-.social ul li {
-    padding: 0em;
-    list-style: none;
-    display: inline-block;
-}
-.social ul li a span.fa {
-    background-position: 0px -2px;
-}
-.social ul li a span.tw {
-    background-position: -41px -3px;
-}
-.social ul li a span.g {
-    background-position: -86px -4px;
-}
-.social ul li span.in {
-    background-position: -129px -4px;
-}
-.social ul li a span.pin {
-    background-position: -174px -5px;
-}
-.social ul li a span.fa:hover {
-    opacity: 0.5;
-    transition: 0.5s all;
-    -Webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.social ul li a span.tw:hover {
-    opacity: 0.5;
-    transition: 0.5s all;
-    -Webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.social ul li a span.g:hover {
-    opacity: 0.5;
-    transition: 0.5s all;
-    -Webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.social ul li a span.in:hover {
-    opacity: 0.5;
-    transition: 0.5s all;
-    -Webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.social ul li a span.pin:hover {
-    opacity: 0.5;
-    transition: 0.5s all;
-    -Webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.social ul li span {
-    background: url(../images/ftr-icons.png)no-repeat;
-    width: 34px;
-    height: 36px;
-    display: block;
-}
+  .copyright a {
+      color: #FFF;
+      text-decoration: none;
+  }
 
-/*--projects--*/
+  .copyright a:hover {
+      color: #B7B4B4;
+      text-decoration: underline;
+  }
 
-.projects h4 {
-    text-align: center;
-    color: #F19FAD;
-    font-size: 1.7em;
-    margin: 0.7em 0;
-}
-.projects p {
-    margin: 1em 0 0;
-    color: #777;
-    font-size: 14px;
-    line-height: 1.8em;
-    text-align: center;
-}
+  /*-- //Copyright --*/
 
-/*-- //Footer --*/
+  .social ul li {
+      padding: 0em;
+      list-style: none;
+      display: inline-block;
+  }
+
+  .social ul li a span.fa {
+      background-position: 0px -2px;
+  }
+
+  .social ul li a span.tw {
+      background-position: -41px -3px;
+  }
+
+  .social ul li a span.g {
+      background-position: -86px -4px;
+  }
+
+  .social ul li span.in {
+      background-position: -129px -4px;
+  }
+
+  .social ul li a span.pin {
+      background-position: -174px -5px;
+  }
+
+  .social ul li a span.fa:hover {
+      opacity: 0.5;
+      transition: 0.5s all;
+      -Webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+  }
+
+  .social ul li a span.tw:hover {
+      opacity: 0.5;
+      transition: 0.5s all;
+      -Webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+  }
+
+  .social ul li a span.g:hover {
+      opacity: 0.5;
+      transition: 0.5s all;
+      -Webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+  }
+
+  .social ul li a span.in:hover {
+      opacity: 0.5;
+      transition: 0.5s all;
+      -Webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+  }
+
+  .social ul li a span.pin:hover {
+      opacity: 0.5;
+      transition: 0.5s all;
+      -Webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+  }
+
+  .social ul li span {
+      background: url(../images/ftr-icons.png)no-repeat;
+      width: 34px;
+      height: 36px;
+      display: block;
+  }
+
+  /*--projects--*/
+
+  .projects h4 {
+      text-align: center;
+      color: #F19FAD;
+      font-size: 1.7em;
+      margin: 0.7em 0;
+  }
+
+  .projects p {
+      margin: 1em 0 0;
+      color: #777;
+      font-size: 14px;
+      line-height: 1.8em;
+      text-align: center;
+  }
+
+  /*-- //Footer --*/
 
 
   .item h4 {
@@ -312,7 +337,7 @@
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
-        /*min-height: 100px;*/
+      /*min-height: 100px;*/
   }
 
   .navbar li a,
@@ -354,6 +379,7 @@
           opacity: 0;
           transform: translateY(70%);
       }
+
       100% {
           opacity: 1;
           transform: translateY(0%);
@@ -365,6 +391,7 @@
           opacity: 0;
           -webkit-transform: translateY(70%);
       }
+
       100% {
           opacity: 1;
           -webkit-transform: translateY(0%);
@@ -376,6 +403,7 @@
           text-align: center;
           margin: 25px 0;
       }
+
       .btn-lg {
           width: 100%;
           margin-bottom: 35px;
